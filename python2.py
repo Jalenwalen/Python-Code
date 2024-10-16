@@ -1,53 +1,98 @@
-print("Hello World!") 
+# 10/15/24
+# print("Hello World!") 
+
+# a = int(input("Enter a number: "))
+# b = int(input("Enter a second number: "))
+# c = int(input("Enter a third number: "))
+
+# if a > b and a > c:
+#     print(f"{a} is the largest number")
+# elif b > a and b > c:
+#     print(f"{b} is the largest number")
+# else:
+#     print(f"{c} is the largest number")
+
+# x = 10
+# y = 3.14
+# name = "Alice"
+# is_active = True
+# print(x, y, name, is_active)
+
+# greeting = "Hello, World!"
+
+# print(greeting[0])
+# print(greeting[0:5])
+# print(greeting.lower())
+# print(greeting.upper())
+# print(greeting.replace("World", "Python"))
+
+# name = input("Enter your name: ")
+# print(f"Hello, {name}! Welcome to the world of Python")
+
+# age = int(input("Enter your age: "))
+# if age < 13:
+#     print("You are a child")
+# elif age >= 13 and age <= 19:
+#     print("You are a teenager")
+# else:
+#     print("You are a adult")
 
 
-a = int(input("Enter a number: "))
-b = int(input("Enter a second number: "))
-c = int(input("Enter a third number: "))
+# score = int(input("Enter your scorer: "))
 
-if a > b and a > c:
-    print(f"{a} is the largest number")
-elif b > a and b > c:
-    print(f"{b} is the largest number")
-else:
-    print(f"{c} is the largest number")
+# if score >= 90:
+#     print("A")
+# else:
+#     if score >= 80:
+#         print("B")
+#     elif score >= 70:
+#         print("C")
+#     elif score >= 60:
+#         print("D")
+#     else:
+#         print("E")
 
-x = 10
-y = 3.14
-name = "Alice"
-is_active = True
-print(x, y, name, is_active)
+# 10/16/24 Code
 
-greeting = "Hello, World!"
+# #Simple while loop to print numbers 1 to 5
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i += 1
 
-print(greeting[0])
-print(greeting[0:5])
-print(greeting.lower())
-print(greeting.upper())
-print(greeting.replace("World", "Python"))
+# # For loop to iterate through a list of names
+# names = ["Alice", "Bob", "Charlie", "Brian"]
+# for name in names:
+#     print(f"Hello, {name}!")
 
-name = input("Enter your name: ")
-print(f"Hello, {name}! Welcome to the world of Python")
+# # Program to calculate the sum of first 10 natural numbers
 
-age = int(input("Enter your age: "))
-if age < 13:
-    print("You are a child")
-elif age >= 13 and age <= 19:
-    print("You are a teenager")
-else:
-    print("You are a adult")
+# total = 0
+# for i in range(1, 11):
+#     total +=  i
+# print(f"sum of numbers from 1 to 10 is: {total}")
 
+# Define a function to greet a user
 
-score = int(input("Enter your scorer: "))
+# def greet(name):
+#     print(f"Hello, {name}")
 
-if score >= 90:
-    print("A")
-else:
-    if score >= 80:
-        print("B")
-    elif score >= 70:
-        print("C")
-    elif score >= 60:
-        print("D")
-    else:
-        print("E")
+# greet("Alice")
+# greet("Brian")
+# greet("Charlie")
+
+# A simple calculator using functions
+
+def add(a,b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    return a / b
+
+print(multiply(10 ,5))
