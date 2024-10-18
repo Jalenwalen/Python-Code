@@ -121,12 +121,12 @@ import time #my own addition not part of lesson
 # print(f"Name: {name}, Age: {age}, Occupation: {occupation}")
 
 #craeting a dictionary
-student = {
-    "name": "Dylan",
-    "age": 16,
-    "major": "Computer Science",
-    "graduation year": "Unknown"
-}
+# student = {
+#     "name": "Dylan",
+#     "age": 16,
+#     "major": "Computer Science",
+#     "graduation year": "Unknown"
+# }
 
 # #print(student["name"])
 # #print(student["age"])
@@ -141,9 +141,9 @@ student = {
 # student["age"] = 18
 # print(student)
 
-print(student.keys())
-print(student.values())
-print(student.items())
+# print(student.keys())
+# print(student.values())
+# print(student.items())
 
 
 
