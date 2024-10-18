@@ -1,3 +1,5 @@
+import time #my own addition not part of lesson
+
 # 10/15/24
 # print("Hello World!") 
 
@@ -83,22 +85,65 @@
 
 # A simple calculator using functions
 
-def add(a,b):
-    return a + b
+# def add(a,b):
+#     return a + b
 
-def subtract(a, b):
-    return a - b
+# def subtract(a, b):
+#     return a - b
 
-def multiply(a, b):
-    return a * b
+# def multiply(a, b):
+#     return a * b
 
-def divide(a, b):
-    if b == 0:
-        return "Cannot divide by zero"
-    return a / b
+# def divide(a, b):
+#     if b == 0:
+#         return "Cannot divide by zero"
+#     return a / b
+
+# 10/17/24
+
+# print(add(10 ,5))
+# print(subtract(10 ,5))
+# print(multiply(10 ,5))
+# print(divide(10 ,5))
+
+# # List example
+
+# fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+#print(fruits[0])
+#print(fruits[2])
+
+# 10/18/24
+
+#working with tuples
+# person =("Dylan", 16, "Student")
+# name, age, occupation = person
+
+# print(f"Name: {name}, Age: {age}, Occupation: {occupation}")
+
+#craeting a dictionary
+student = {
+    "name": "Dylan",
+    "age": 16,
+    "major": "Computer Science",
+    "graduation year": "Unknown"
+}
+
+# #print(student["name"])
+# #print(student["age"])
+# #print(student["major"])
+
+# time.sleep(3)
+# print(student)
+
+# print("Recalculating age...")
+# time.sleep(3)
+# student["graduation year"] = 2024
+# student["age"] = 18
+# print(student)
+
+print(student.keys())
+print(student.values())
+print(student.items())
 
 
-print(add(10 ,5))
-print(subtract(10 ,5))
-print(multiply(10 ,5))
-print(divide(10 ,5))
+
