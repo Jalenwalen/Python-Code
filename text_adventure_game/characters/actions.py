@@ -1,3 +1,9 @@
+import random
+
+from characters.mage import Mage
+from characters.warrior import Warrior
+
+
 def get_random_action(character):
     actions = []
     if isinstance(character, Mage):
