@@ -4,4 +4,8 @@ def get_random_action(self):
     from characters.warrior import Warrior
 
     actions = []
-    if isinstance(self, Mage)
+    if isinstance(self, Mage):
+        actions = ['attack1', 'attack2', 'heal', 'defend']
+    elif isinstance(self, Warrior):
+        actions = ['attack1', 'attack2', 'defend']
+    return random.choice(actions)
