@@ -1,3 +1,4 @@
+
 # main.py
 
 from item import Item
@@ -39,3 +40,31 @@ def main():
                 inventory.add_item(item)
             except ValueError:
                 print("Invalid input. Please enter numeric values for ID, quantity, and price.")
+        
+        elif choice == '2':
+            # Update the quantity of an existing item
+            try:
+                item_id = int(input("Enter item ID to update: "))
+                amount = int(input("Enter quantity to add/remove: "))
+                
+                # Update the item's quantity
+                updated = inventory.update_item(item_id, amount)
+                if not updated:
+                    print("Please try again with a valid item ID.")
+            except ValueError:
+                print("Invalid input. Please enter numeric values for ID and quantity.")
+        
+        elif choice == '3':
+            # Show all items in the inventory
+            inventory.show_inventory()
+        
+        elif choice == '4':
+            # Exit the program
+            print("Exiting the Inventory Management System. Goodbye!")
+            break
+        
+        else:
+            print("Invalid choice. Please select a valid option (1-4).")
+
+if __name__ == "__main__":
+    main()
